@@ -1,0 +1,6 @@
+dataset:
+  path: data/raw/real_estate_price_insights.csv
+  date_col: null
+  target_col: Price
+  numeric_candidates: ["Price", "Area Size", "Price per Sqft", "No. of Bedrooms", "No. of Bathrooms"]
+  categorical_candidates: ["City", "Area", "Status", "Transaction Type", "Property Type"]

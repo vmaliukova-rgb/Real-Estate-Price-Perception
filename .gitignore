@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# venv
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (not tracked by default)
+data/raw/*
+data/processed/*
+
+# OS
+.DS_Store
+Thumbs.db
